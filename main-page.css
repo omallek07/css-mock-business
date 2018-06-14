@@ -70,19 +70,19 @@ body {
   border: none;
 }
 
-.section-title {
+.main-section-title {
   color: #2ddf5c;
   text-align: center;
 }
 
-#product-overview {
+#main-product-overview {
   background: url("freedom.jpg");
   width: 100%;
   height: 528px;
   padding: 10px;
 }
 
-#product-overview h1 {
+#main-product-overview h1 {
   color: white;
   font-family: 'Anton', sans-serif;
 }
@@ -101,5 +101,22 @@ body {
   background: #19b84c;
   color: white;
   box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.main-plan__annotation {
+  background: white;
+  color: #19b84c;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.main-plan__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-plan__features li {
+  margin: 8px 0;
 }
 
