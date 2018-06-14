@@ -108,6 +108,23 @@ body {
   color: #19b84c;
   box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
   border-radius: 8px;
+  padding: 5px 0;
+}
+
+.main-plan__title {
+  color: #0e4f1f;
+}
+
+.main-plan__price {
+  color: #858585
+}
+
+.main-plan--highlighted .main-plan__price {
+  color: #0e4f1f;
+}
+
+.main-plan--highlighted .main-plan__title {
+  color: white;
 }
 
 .main-plan__features {
