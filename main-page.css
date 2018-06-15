@@ -10,7 +10,7 @@ body {
 .main-header {
   width: 100%;
   padding: 10px;
-  background: #2ddf5c;
+  background: #85f898;
 }
 
 .main-header > div {
@@ -52,7 +52,7 @@ body {
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-  color: white;
+  color: #ff1b68;
   border-bottom: 4px solid white;
 }
 
@@ -156,4 +156,34 @@ body {
 
 .button:focus {
   outline: none;
+}
+
+#main-key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#main-key-features .main-section-title{
+  color: white;
+  margin: 32px;
+}
+
+.main-key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-key-feature {
+  display: inline-block;
+  width: 30%;
+}
+
+.main-key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
 }
