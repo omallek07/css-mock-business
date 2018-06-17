@@ -28,8 +28,12 @@ main {
 .packages-plan__badge {
   position: absolute;
   top: 0;
-  left: 200px;
+  right: 0;
   margin: 20px;
+  font-size: 12px;
+  color: white;
+  background: #ff5454;
+  padding: 8px;
 }
 
 .packages-plan a {
