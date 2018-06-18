@@ -8,25 +8,31 @@ var mobileNav = document.querySelector('.mobile-nav');
 
 for (var i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener('click', function() {
-    backdrop.style.display = 'block';
-    modal.style.display = 'block';
+    // backdrop.style.display = 'block';
+    // modal.style.display = 'block';
+    modal.classList.add('open');
+    backdrop.classList.add('open');
   });
 }
 
 modalNoButton.addEventListener('click', closeModal);
 
 backdrop.addEventListener('click', function() {
-  mobileNav.style.display = 'none';
+  mobileNav.classList.remove('open');
   closeModal();
 });
 
 toggleButton.addEventListener('click', function() {
-  mobileNav.style.display = 'block';
-  backdrop.style.display = 'block';
+  // mobileNav.style.display = 'block';
+  // backdrop.style.display = 'block';
+  mobileNav.classList.add('open');
+  backdrop.classList.add('open');
 });
 
 function closeModal() {
-  backdrop.style.display = 'none';
-  modal.style.display = 'none';
+  // backdrop.style.display = 'none';
+  // modal.style.display = 'none';
+  modal.classList.remove('open');
+  backdrop.classList.remove('open');
 }
 
