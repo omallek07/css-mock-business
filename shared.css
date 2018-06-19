@@ -92,7 +92,9 @@ body {
 }
 
 .main-nav__item a:hover,
-.main-nav__item a:active {
+.main-nav__item a:active,
+.mobile-nav__item a:hover,
+.mobile-nav__item a:active {
   color: #ff1b68;
   border-bottom: 4px solid white;
 }
@@ -209,5 +211,20 @@ body {
   .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .package {
+    border-left: 4px solid #0e4f1f;
+  }
+
+  #free {
+    border-right: 4px solid #0e4f1f;
+  }
+
+  #free:hover,
+  #free:active {
+    border-right-color: #ff1b68;
   }
 }
