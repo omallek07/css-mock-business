@@ -2,7 +2,6 @@
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url("./images/freedom.jpg") center/cover no-repeat border-box;
   width: 100vw;
   height: 33vh;
-  margin-top: 2.75rem;
   position: relative;
 }
 
