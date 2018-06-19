@@ -166,25 +166,34 @@
 
   .main-plan__list {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .main-plan {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 30%;
-    vertical-align: middle;
     min-width: 13rem;
     max-width: 25rem;
+    height: 28rem;
   }
 
   .main-plan--highlighted {
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+    height: 30rem;
+    z-index: 50;
   }
 
   .main-key-feature {
-    display: inline-block;
     width: 30%;
     max-width: 25rem;
-    vertical-align: top;
+  }
+
+  .main-key-feature__list {
+    display: flex;
+    justify-content: center;
   }
 }
