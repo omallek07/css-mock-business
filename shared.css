@@ -158,8 +158,8 @@ body {
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  display: block;
+  margin: 1rem 0;
 }
 
 .mobile-nav {
@@ -198,11 +198,16 @@ body {
   .toggle-button {
     display: none;
   }
-  
+
   .main-nav {
     text-align: right;
     display: inline-block;
     width: calc(100% - 44px);
     vertical-align: middle;
+  }
+
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 1rem;
   }
 }
