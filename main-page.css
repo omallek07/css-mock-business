@@ -96,8 +96,6 @@
 }
 
 .main-key-feature {
-  display: inline-block;
-  width: 30%;
   vertical-align: top;
 }
 
@@ -182,5 +180,12 @@
 
   .main-plan--highlighted {
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+  }
+
+  .main-key-feature {
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+    vertical-align: top;
   }
 }
