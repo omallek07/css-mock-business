@@ -4,7 +4,7 @@ var modal = document.querySelector('.modal');
 var modalNoButton = document.querySelector('.modal__action--negative');
 var toggleButton = document.querySelector('.toggle-button');
 var mobileNav = document.querySelector('.mobile-nav');
-
+// var ctaButton = document.querySelector('.main-nav__item--cta');
 
 for (var i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener('click', function() {
@@ -43,3 +43,18 @@ function closeModal() {
   }, 200);
   backdrop.classList.remove('open');
 }
+
+
+// Added just to show you can look at animation times with JS
+
+// ctaButton.addEventListener('animationStart', function(event) {
+//   console.log(event)
+// });
+
+// ctaButton.addEventListener('animationEnd', function(event) {
+//   console.log(event)
+// });
+
+// ctaButton.addEventListener('animationIteration', function(event) {
+//   console.log(event)
+// });

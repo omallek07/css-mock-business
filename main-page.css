@@ -114,6 +114,7 @@
   top: 20%;
   left: 30%;
   width: 40%;
+  min-width: 60%;
   background: white;
   padding: 1rem;
   border: 1px solid #ccc;
@@ -197,5 +198,9 @@
   .main-key-feature__list {
     display: flex;
     justify-content: center;
+  }
+
+  .modal {
+    min-width: 40%;
   }
 }
