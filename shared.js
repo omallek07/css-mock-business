@@ -38,4 +38,8 @@ function closeModal() {
     modal.classList.remove('open');
   }
   backdrop.classList.remove('open');
+  setTimeout(function() {
+    backdrop.style.display = 'none';
+  }, 200);
+  backdrop.classList.remove('open');
 }
